@@ -1,0 +1,21 @@
+{% load customfilters %}
+
+<div class="container">
+    <div class="text-center">
+      <h2 class="text-secondary">Skills</h2>
+    </div>
+    <table class="table-light">
+      <tbody id="skills_table" >
+        {% for key, value in skills.items %}
+            <tr>
+                <th>{{key}}</th>
+                <td>{{value | join:", "}}</td>
+            </tr>
+
+        {% endfor %}
+
+      </tbody>
+        
+    </table>
+
+  </div>

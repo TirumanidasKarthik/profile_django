@@ -1,16 +1,29 @@
 {
+    
     "Tata Consultancy Services": {
-        "period": "2021-present",
-        "responsibilities": [
-            "Analysing user requirements and preparing test design.",
-            "Providing test design walkthrough to business for approval.",
-            "Preparing/ pulling test data from database.",
-            "Performing system integration testing for the scenarios identified and identifying bugs.",
-            "Logging/ Tracking bugs till closure using qTest application.",
-            "Preparing test signoff documents with detailed scenarios, tests covered and bugs identified.",
-            "Performing regression testing using automation scripts for multiple applications",
-            "Providing functional KT to automation team."
+        "2022-Present" :{
+            "Role": "Python Developer",
+            "period": "2021-Present",
+            "responsibilities": [
+                "Analysing applications build in Fortran language and rewriting applications in Python",
+                "Utilizing F2py tool from Numpy module to external Fortran source codes",
+                "Building test scripts using Pytest.",
+                "Preparing application executables using PyInstaller tool."
+            ]
+        },
+        "2021-2022" : {
+            "Role": "Quality Analyst",
+            "period": "2021-2022", 
+            "responsibilities": [
+                "Analysing user requirements and preparing test design.",
+                "Preparing/ pulling test data from database.",
+                "Performing system integration testing for the scenarios identified and identifying bugs.",
+                "Logging/ Tracking bugs till closure using qTest application.",
+                "Preparing test signoff documents with detailed scenarios, tests covered and bugs identified.",
+                "Performing regression testing using automation scripts for multiple applications",
+                "Providing functional KT to automation team."
 
-        ]
+            ]
+        }   
     }
 }

@@ -1,0 +1,23 @@
+{% load customfilters %}
+
+<div class="container">
+    <div class="text-center">
+      <h2 class="text-secondary">Education</h2>
+    </div>
+      <ul id="education_container" class="list-group list-group-flush">
+        {% for level, data in education.items %}
+            <li class="row list-group-item">
+                <p class="">{{level}} - {{data|join_education }}
+                    <span class="float-end">{{data.period}}</span>
+                </p>
+                
+            </li>
+
+
+            
+        {% endfor %}
+
+      </ul>
+
+
+  </div>

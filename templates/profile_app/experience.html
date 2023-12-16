@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="text-center">
+      <h2 class="text-secondary">Work Experience</h2>
+    </div>
+    <div id="experience_container">
+        {% for company, data in experience.items %}
+            <div class="">
+            <h4 class="card-title">{{company}}</h4>
+            {% for role,d in data.items %}
+                <div class="container">
+                {% for key, val in d.items %}
+                    
+                    {% if key == "Role" %}
+                        <h6 class="card-body">{{val}} | {{role}}</h6>
+                    {% elif key == "responsibilities" %}
+                        <ul class="list-group list-group-flush">
+                            {% for item in val %}
+                                <li class="list-group-item">{{item}}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        
+                    {% endif %}
+                {% endfor %}
+                </div>
+            {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+
+</div>

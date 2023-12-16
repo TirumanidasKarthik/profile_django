@@ -1,0 +1,13 @@
+
+<div class="container">
+    <div class="text-center">
+      <h2 class="text-secondary">Certifications</h2>
+    </div>
+    <ul id="certification_container" class="list-group list-group-flush">
+        {% for cert in certification.certificates %} 
+            <li class="list-group-item">{{cert}}</li>
+        {% endfor %}
+
+    </ul>
+
+</div>

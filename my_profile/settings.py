@@ -32,6 +32,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'tirumanidas.pythonanywhere.com',
+    '127.0.0.1', 
 ]
 
 
